@@ -25,14 +25,20 @@ public:
     }
 };
 
+int main() {
+    seseorang* obyek;
+    joko a;
+    lia b;
 
+    obyek = &a;
+    obyek->pesan();
+    obyek = &b;
+    obyek->pesan();
+    //a.seseorang :: pesan();
+    return 0;
 
-
-
-int main()
-{
-    std::cout << "Hello World!\n";
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
